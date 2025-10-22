@@ -1,3 +1,5 @@
+package demo;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -12,7 +14,7 @@ public class Gui extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setTitle("Gui Demo 1");
+        stage.setTitle("demo.Gui Demo 1");
         GridPane pane = new GridPane();
         this.initContent(pane);
         Scene scene = new Scene(pane);

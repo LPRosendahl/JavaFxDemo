@@ -1,6 +1,8 @@
+package opgave2;
+
 import javafx.application.Application;
 
-public class App {
+public class Main {
     public static void main(String[] args) {
         Application.launch(Gui.class);
     }
